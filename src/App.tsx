@@ -539,9 +539,9 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-24">
           <div>
-            <h2 className="text-6xl md:text-9xl font-black leading-none tracking-tighter mb-8">
-              LET'S BE <br />
-              <span className="text-brand-orange uppercase">ThirdSpace.</span>
+            <h2 className="text-6xl md:text-9xl font-black leading-none tracking-tighter mb-8 max-w-2xl">
+              TOGETHER LET'S TAKE <br />
+              <span className="text-brand-orange uppercase">Space.</span>
             </h2>
             <p className="text-xl text-white/50 font-medium max-w-md mb-8">
               Ready to take your business to the next level? Let's build something amazing together.
