@@ -44,10 +44,11 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <div className="w-8 h-8 rounded-lg bg-brand-orange flex items-center justify-center">
-            <Zap className="text-brand-black w-5 h-5" />
-          </div>
-          <span className="text-xl font-black tracking-tight cursor-pointer">ThirdSpace<span className="text-brand-orange">.</span></span>
+          <img 
+            src="/logo.png" 
+            alt="ThirdSpace Logo" 
+            className="h-8 w-auto object-contain"
+          />
         </div>
 
         {/* Desktop Links */}
