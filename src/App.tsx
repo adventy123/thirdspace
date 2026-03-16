@@ -490,7 +490,7 @@ const FAQ = () => {
     }
   ];
 
-  const [openIdx, setOpenIdx] = useState<number | null>(0);
+  const [openIdx, setOpenIdx] = useState<number | null>(null);
 
   return (
     <section id="faq" className="py-24 px-6 bg-brand-black">
