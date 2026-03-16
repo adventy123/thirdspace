@@ -442,9 +442,9 @@ const Pricing = () => {
                 Best Value
               </div>
               <h3 className="text-2xl font-black uppercase mb-2">{plan.name}</h3>
-              <div className="flex items-baseline gap-1 mb-6">
+              <div className="flex items-baseline gap-3 mb-6">
                 <span className="text-5xl font-black">{plan.price}</span>
-                <span className="text-white/40 font-bold">/project</span>
+                <span className="text-white/40 font-bold text-2xl line-through decoration-white/30">$3000</span>
               </div>
               <p className="text-white/50 mb-8 font-medium leading-relaxed">
                 {plan.desc}
